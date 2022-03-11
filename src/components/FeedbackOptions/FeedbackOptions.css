@@ -1,0 +1,50 @@
+.options__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.options__item {
+  margin-left: 30px;
+}
+
+.options__btn {
+  background-color: #feb56c;
+  border: 3px solid orangered;
+  border-radius: 4px;
+  width: 120px;
+  color: #000;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
+  margin: 0 auto 50px;
+  animation-name: changeBgColor;
+  animation-duration: 5000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.options__btn:hover,
+.options__btn:focus {
+  border: 3px solid #fe8240;
+  box-shadow: 1px 4px 6px #fe8240;
+  transform: scale(1.4);
+  overflow: hidden;
+  animation-play-state: paused;
+}
+
+@keyframes changeBgColor {
+  0% {
+    background-color: teal;
+  }
+
+  50% {
+    background-color: orange;
+  }
+
+  100% {
+    background-color: deepskyblue;
+  }
+}

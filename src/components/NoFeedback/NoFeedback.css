@@ -1,0 +1,11 @@
+.noFeedback {
+    color: black;
+  
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
